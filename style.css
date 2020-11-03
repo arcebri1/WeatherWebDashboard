@@ -1,0 +1,26 @@
+a.navbar-brand {
+    padding: 10px;
+    background-color: rgb(47, 152, 179);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.col-md-12{
+    padding: 10px;
+    background-color: white;
+}
+
+h3{
+    color: rgb(47, 152, 179);
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
