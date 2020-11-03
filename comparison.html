@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Temperature</title>
+    <title>Comparison</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
@@ -37,26 +37,39 @@
             </li>
     </nav>
 
-    <main class="container">
-        <section id="temp">
-          <section id="figure">
-            <h2 id="max-temperature">Max Temperature</h2>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Comparison: Latitude vs X</h1> 
             <hr>
-            <img id="mtemp-image" src="assets\Fig1.png" alt="Max Temp">
-          </section>
-          <p>We can see that the closer we get to the equator the hotter it gets.</p>
-          
-        </section>
+            <p>Click any plot to get an in-depth analysis.</p>
+          </div>
+        </div>
 
-        <aside id="visuals">
-            <h2>Visualizations</h2>
-            <hr>
-            <a href="#"><img id="temp-image" src="assets\Fig1.png" alt="temperature"></a>
-            <a href="#"><img id="hum-image" src="assets\Fig2.png" alt="humidity"></a>
-            <a href="#"><img id="cloud-image" src="assets\Fig3.png" alt="cloudiness"></a>
-            <a href="#"><img id="wind-image" src="assets\Fig4.png" alt="wind-speed"></a>
-        </aside>
-    </main>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>vs. Max Temperature</h2>
+                <img id="mtemp-image" src="assets\Fig1.png" alt="Cloudiness">
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Humidity</h2>
+                <img id="mtemp-image" src="assets\Fig2.png" alt="Cloudiness">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h2>vs. Cloudiness</h2>
+                <img id="mtemp-image" src="assets\Fig3.png" alt="Cloudiness">
+            </div>
+            <div class="col-md-6">
+                <h2>vs. Wind Speed</h2>
+                <img id="mtemp-image" src="assets\Fig4.png" alt="Cloudiness">
+            </div>
+        </div>
+            
+    
+    </div>
     
 
 
