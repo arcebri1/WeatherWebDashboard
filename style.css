@@ -67,4 +67,6 @@ body{
 
 .thumbnail{
     width: 50%;
+    padding-right: 75px;
+    padding-bottom: 225px;
 }
