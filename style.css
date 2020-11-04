@@ -2,16 +2,16 @@ a.navbar-brand {
     padding: 10px;
     background-color: rgb(47, 152, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10px;
+    margin-left: -180px;
     font-size: 20px;
     font-weight: bold;
     color: white !important;
 }
 
-.col-md-12{
+/* .col-md-12{
     padding: 10px;
     background-color: white;
-}
+} */
 
 h3{
     color: rgb(47, 152, 179);
@@ -23,6 +23,8 @@ h3{
 p{
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    font-size: large;
+    text-align: inherit;
 }
 
 
@@ -41,11 +43,15 @@ p{
 .col-md-12{
    background-color: white;
    margin-bottom: 20x;
-   margin-left: -150px;
-   margin-top: 50px;
-
+   margin-left: -50px;
+   margin-top: 30px;
+   padding: 10px;
 }
 
+/* .col-md-12{
+    padding: 10px;
+    background-color: white;
+} */
 
 /* .col-md-4{ */
     /* width: 100px;
@@ -84,3 +90,53 @@ body{
     padding-top: 10px;
     width: 50%;
 }
+
+#mtemp-image{
+    width: 90%;
+    height: 90%;
+    /* margin-right: 10px; */
+    /* vertical-align: 10px; */
+}
+
+#comparison{
+    background-color: white;
+   /* margin-bottom: 20x;
+   margin-left: -50px;
+   margin-top: 30px;
+   padding: 10px; */
+}
+
+#datat{
+    background-color: white;
+}
+
+/* .row{
+    background-color: white;
+} */
+
+@media (max-width: 480px) {
+    /* .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible; */
+    
+
+    .navbar-nav ul{
+        visibility: visble;
+    }
+
+    #navbarSupportedContent {
+        position: absolute ;
+    }
+  }
