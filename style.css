@@ -173,4 +173,12 @@ body{
         margin-left: 10px;
         font-size: 20px;
     }
+
+    .navbar{
+        padding: inherit;
+    }
+
+    .col-md-12{
+        margin-left: 5px;
+     }
   }
