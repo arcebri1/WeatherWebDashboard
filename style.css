@@ -106,6 +106,7 @@ body{
 
 #datat{
     background-color: white;
+    margin-top: 30px;
 }
 
 .acenter{
@@ -117,6 +118,21 @@ body{
     height: 80%;
     margin-left: 50px;
 }
+
+.table{
+    background-color: white;
+}
+
+.keys{
+    text-align: center;
+}
+
+.values{
+    text-align: center;
+}
+
+
+
 
 /* .row{
     background-color: white;
