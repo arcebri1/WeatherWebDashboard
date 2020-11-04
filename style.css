@@ -112,6 +112,12 @@ body{
     text-align: center;
 }
 
+#ctemp, #chumid, #ccloud, #cwind{
+    width: 80%;
+    height: 80%;
+    margin-left: 50px;
+}
+
 /* .row{
     background-color: white;
 } */
