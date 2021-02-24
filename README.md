@@ -28,16 +28,22 @@ The website consists of 7 pages total, including:
   * Uses a Bootstrap grid for the visualizations.
     * The grid contains two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
-  
+ ![](Images/comparison-lg.png) 
+
 * A "Data" page that:
   * Displays a responsive table containing the data used in the visualizations.
     * The table is a bootstrap table component. 
     * Used Pandas to generate a HTML table from a pandas dataframe. 
+
+![](Images/data-lg.png)
+
 * At the top of every page, there is a navigation menu that:
   * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
   * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
   * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-  * Is responsive. 
+  * Is responsive.
+
+![](Images/nav-lg.png)
 
 - - -
 The data is provided by UCSD Extension: Data Science and Visualization Bootcamp.
